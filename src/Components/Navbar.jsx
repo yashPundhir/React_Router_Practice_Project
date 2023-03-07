@@ -1,5 +1,6 @@
 import "../darkmode.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 	const [isDarkMode, setDarkMode] = useState(false);
@@ -35,13 +36,13 @@ function Navbar() {
 						className="menu menu-compact dropdown-content  p-2 shadow bg-base-100 rounded-box w-52 border"
 					>
 						<li>
-							<a>Homepage</a>
+							<Link to="/">Homepage</Link>
 						</li>
 						<li>
-							<a>About Us</a>
+							<Link to="/about">About Us</Link>
 						</li>
 						<li>
-							<a>Contact Us</a>
+							<Link to="/contact">Contact Us</Link>
 						</li>
 					</ul>
 				</div>

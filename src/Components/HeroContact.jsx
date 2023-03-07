@@ -7,7 +7,11 @@ function HeroContact() {
 					<p className="py-6">
 						This component belongs to Hero Section of Contact Us
 					</p>
-					<button className="btn btn-primary">Get Started</button>
+					<a href="https://pixlr.com/e/">
+						<button className="btn btn-primary">
+							Awesome & Free Photo Editing Resource
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>

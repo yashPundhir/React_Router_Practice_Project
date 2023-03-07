@@ -7,7 +7,11 @@ function HeroAbout() {
 					<p className="py-6">
 						This component belongs to Hero Section of About Us
 					</p>
-					<button className="btn btn-primary">Get Started</button>
+					<a href="https://www.youtube.com/watch?v=MusIvEKjqsc">
+						<button className="btn btn-primary">
+							Free Alternatives of Heroku
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
