@@ -1,0 +1,14 @@
+body.dark-mode {
+	background-color: #202020;
+	color: #f0f0f0;
+}
+
+#darkcomp {
+	margin-top: 20px;
+	width: 700px;
+	height: 100px;
+}
+#dark {
+	margin-top: 20px;
+	background-color: rgb(248 113 113);
+}
