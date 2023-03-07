@@ -4,7 +4,7 @@ function HeroHome() {
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Hello there</h1>
-					<p className="py-6">
+					<p className="py-6 w-[470px]">
 						This component belongs to Hero Section of the Homepage
 					</p>
 					<a href="https://www.svgrepo.com/">
