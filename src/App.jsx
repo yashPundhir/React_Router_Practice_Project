@@ -1,5 +1,5 @@
 import Darkcomp from "./Darkcomp";
-import "./app.css";
+import "./App.css";
 import Navbar from "./Components/Navbar";
 import HeroHome from "./Components/HeroHome";
 import CardComp from "./Components/CardComp";
