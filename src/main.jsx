@@ -29,15 +29,33 @@ const appRouter = createBrowserRouter([
 		children: [
 			{
 				path: "/",
-				element: <HeroHome />,
+				element: (
+					<HeroHome
+						title="Homepage"
+						link="https://www.svgrepo.com/"
+						btnText="A nice resource for icons & graphics"
+					/>
+				),
 			},
 			{
 				path: "/about",
-				element: <HeroAbout />,
+				element: (
+					<HeroHome
+						title="About Us"
+						link="https://www.youtube.com/watch?v=MusIvEKjqsc"
+						btnText="Free Alternatives of Heroku"
+					/>
+				),
 			},
 			{
 				path: "/contact",
-				element: <HeroContact />,
+				element: (
+					<HeroHome
+						title="Contact Us"
+						link="https://pixlr.com/e/"
+						btnText="Awesome & Free Photo Editing Resource"
+					/>
+				),
 			},
 		],
 	},
